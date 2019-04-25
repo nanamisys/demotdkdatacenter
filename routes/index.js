@@ -48,7 +48,7 @@ router.post("/", function(req, res, next) {
     };
 
     var options = {
-      url: "http://13.71.157.246:3000/api/org.example.biznet.Data",
+      url: "http://52.185.138.69:3000/api/org.example.biznet.Data",
       method: "POST",
       headers: headers,
       body: JSON.stringify(data)
